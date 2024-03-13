@@ -4,7 +4,7 @@
 
 demo => https://youtu.be/RFudBVQI03k
 
-Kikisan adalah sisten scraping data produk dari tokopedia.com yang terdiri dari 7 metode, dan menggunakan microservice sebagai struktur di sistemnya.
+Metode ini merupakan kombinasi antara kekuatan Asynchronous dari Playwright dan HTTPX. Dalam pendekatan ini, Playwright digunakan untuk scraping halaman search produk dari platform Tokopedia.com, sementara HTTPX digunakan untuk melakukan permintaan HTTP ke halaman detail produk dan halaman toko yang bersifat Asynchronous.
 
 ### frontend
 kikisan.site :  https://github.com/codedaffa/kikisan.git
